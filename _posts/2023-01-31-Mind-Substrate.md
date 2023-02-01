@@ -26,7 +26,7 @@ An interesting experiment would be how a neural connection network system encode
 
 ## Inteligence as World Modeler
 
-
+I am reminded by what was said by George Holtz that inteligence is information compression, which probably started by Douglas Hofstadler in Godel Escher Bach. Thinking deeper i conclude that intelligence is not exactly a form of compression, because if it is then the most optimized version would be physics because that contains the most compressed version of how the world works, thus everything nescesary to operate in our universe can be calculated from it, which comes our next dilemma, the calculation part. One needs almost infinite amount of compute to deduce practical things from the underlying physics, thus I propose another thing, Inteligence is an attempt to balance between 
 
 
 
