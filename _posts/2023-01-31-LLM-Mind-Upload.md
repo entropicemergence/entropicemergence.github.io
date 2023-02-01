@@ -35,10 +35,3 @@ With current level of technology, LLM probably already able to emulate part of h
 
 
 
-
-
-
-
-
-
-
