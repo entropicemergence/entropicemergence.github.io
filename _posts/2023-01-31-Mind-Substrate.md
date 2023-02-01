@@ -24,6 +24,13 @@ An interesting experiment would be how a neural connection network system encode
 
 
 
+## Inteligence as World Modeler
+
+
+
+
+
+
 
 
 
