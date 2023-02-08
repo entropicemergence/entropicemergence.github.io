@@ -29,6 +29,20 @@ Packaging technology :
 
 Procesing Unit Design:
 1. Instruction set, how it relates to machine code?, how it is implemented in silicon ROM?, how much die space it takes? how much x86, ARM, RISC V, GPU instruction has?   
+
+Risc V is load and store architecture which clearly differentiate instrution into memory access(between memory and register), and ALU instruction which operate between register, ADD in RISC V are only between register, in x86 it could directly from memory.
+
+An instruction may take several clock cycle to execute, which is controlled by control unit. To speed up the execution, the cpu will try to find implicit parallelism in i the machine code, and try to execute several different instruction in parallel, jump, or even discard an instruction. Every clock cycle the proccessor execute micro instruction, micro instruction will be unique in every proccesor architecture and may different across families of instruction set (two x86 architecture will have different micro instruction) , providing another abstraction layer.
+
+How modern CPU work:
+It will load hundreds of machine code line, then try to find the fastest way to execute it;
+a. find the graph dependencies, then execute independent tree in parallel
+b. speculative execution; guess the result of conditional (an if) operation, then execute the "do something" operation before the conditional calculation are completed, 
+
+jim keller said that for modern cpu, the most important optimization is instruction predictability, branch  predictability amd data locality.
+
+
+
 2. Cache, how much gate it takes? how addressing works? transistor density? max bandwidth? min latency? 
 3. Register, how much in every processor?, what size it has? how its implemented in gate level?
 4. Branch predictor, how its implemented in silicon? how its works? how instruction dropped ? 
