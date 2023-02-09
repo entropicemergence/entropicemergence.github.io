@@ -7,6 +7,8 @@ tags: [computer, hardware] #has to be lowercase
 render_with_liquid: false
 ---
 
+Just like self similar properties in fractal, the real world can be understood as series of structure with the same complexity level, but at different scale. One can design a microprocessor with the same complexity as a python program, booth of those abstraction will have many self similar structure that can be exploited by an engineer. Realizing  this amazing properties allows one to learn quickly every level of abstraction.
+
 Simulate  every component in this stack, differentiate by simulatability
 
 Elements needed to build computers :
