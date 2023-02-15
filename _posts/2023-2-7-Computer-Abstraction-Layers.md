@@ -36,6 +36,17 @@ Risc V is load and store architecture which clearly differentiate instrution int
 
 An instruction may take several clock cycle to execute, which is controlled by control unit. To speed up the execution, the cpu will try to find implicit parallelism in i the machine code, and try to execute several different instruction in parallel, jump, or even discard an instruction. Every clock cycle the proccessor execute micro instruction, micro instruction will be unique in every proccesor architecture and may different across families of instruction set (two x86 architecture will have different micro instruction) , providing another abstraction layer.
 
+RISCV
+
+RV32I Base Integer Instruction Set
+LB, LH, LW= Load byte, load half(16 bit), load word(32 bit) from memory to register 
+SB, SH, SW= Save
+
+
+
+
+
+
 How modern CPU work:
 It will load hundreds of machine code line, then try to find the fastest way to execute it;
 a. find the graph dependencies, then execute independent tree in parallel
@@ -65,8 +76,9 @@ Javascript, Python
 
 
 
-
-
+|Content|Link|
+|---|---|
+|RISCV simulator|https://www.cs.cornell.edu/courses/cs3410/2019sp/riscv/interpreter/|
 
 
 
